@@ -4,7 +4,7 @@ with open("output.txt","w") as file:
     file.close()
     print('\n')
 print("Data successfully written to output.txt.")
-user_input1=input("Enter additional teext to append:")
+user_input1=input("Enter additional text to append:")
 with open("output.txt",'a') as file:
      file.write(f"{user_input1}\n")
      file.close()
